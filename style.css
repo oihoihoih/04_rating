@@ -1,0 +1,51 @@
+body {
+    background-color: #F25041;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#rating {
+    display: flex;
+    flex-direction: row;
+}
+
+.heart_out {
+    background-image: url("hearts/heart_out.svg");
+    width:100px;
+    height:100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 1rem;
+    z-index:0;
+}
+
+/* .heart_plain {
+    background-color: greenyellow;
+    mask-image: url("hearts/heart.svg");
+    width:100px;
+    height:100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 1rem;
+} */
+.heart_plain {
+    background-image: url("hearts/heart.svg");
+    filter: hue-rotate(160deg);
+    width:100px;
+    height:100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 1rem;
+    z-index; 1;
+}
+
+
+
+.relleno  {
+    fill: tomato;
+}
